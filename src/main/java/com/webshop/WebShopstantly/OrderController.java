@@ -25,6 +25,7 @@ public class OrderController {
     @RequestMapping(path = "saveorder", method = RequestMethod.GET)
     public String asd() {
         orderService.saveOrder();
+        System.err.println("Order is being delivered by DHL");
         return "order saved";
     }
 

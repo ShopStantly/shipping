@@ -25,7 +25,6 @@ public class Order1 {
         this.id = id;
     }
 
-
     public boolean getStatus() {
         return status;
     }
